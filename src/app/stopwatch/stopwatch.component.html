@@ -1,0 +1,13 @@
+<div>stopwatch works!
+
+    <div class="time-display" [textContent]="hrs"></div>
+    <div class="time-display" >:</div>
+    <div class="time-display" [textContent]="mins"></div>
+    <div class="time-display" >:</div>
+    <div class="time-display" [textContent]="counter"></div>
+
+    <button class="btn-start" [textContent]="startText" (click)="startTimer()"></button>
+    <button class="btn-clear" (click)="clearTimer()">Clear</button>
+
+
+</div>
